@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box; /* padding wird nach innen berechnet */
+    
+}
+
+html, body {
+    z-index: -1;
+    background-image: url(../img/stoa.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --foaboas: #61525E;
+    --foabzwoa: #61054B;
+    --foabdrei: #AD0987;
+    --foabvia: #E65AC5;
+    --foabfuenf: #E65AC5;
+    --foabsechse: #bec2c7;
+}
+
+button {
+        font-size: 1.5em;
+        width: 15vw;
+        
+        
+}
+
+h1, h2 {
+    color: white;
+}
+
+.scorebox {
+    background-color: antiquewhite;
+    opacity: 50%;
+}
+
+img {
+    max-width: 25vw;
+    max-height: 25vw;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.craft {
+    align-items: center;
+    flex-direction: column;
+}
+
+#message {
+    background-color: white;
+    font-size: larger;
+}

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box; /* padding wird nach innen berechnet */
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+:root {
+    --foaboas: #61525E;
+    --foabzwoa: #61054B;
+    --foabdrei: #AD0987;
+    --foabvia: #E65AC5;
+    --foabfuenf: #E65AC5;
+    --foabsechse: #bec2c7;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* ´-____-` F o O t E r ´-____-` */
+
+/* ´-____-` H e A d E r ´-____-` */
+
+h1 {
+    background-color: var(--foaboas);
+    color: var(--foabvia);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 100 px;
+}
+
+h2 {
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    font-weight:900;
+    text-shadow: 4px 4px 4px white;
+}
+
+div > p {
+    color: black;
+    font-size: 2rem;
+    font-weight:bolder;
+}
+
+.header {
+    
+
+    background-color: var(--foabzwoa);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* ´-____-` M a I n ´-____-` */
+
+.main {
+    background-image: url(../img/striet.jpg);
+    background-size: cover;
+    border-radius: 5em;
+    height: fit-content;
+    text-align: center;
+}
+
+    /* ´-__-` Spiele ´-__-` */
+
+.Spiel1, .Spiel2, .Spiel3, .Spiel4 {
+    background-color: var(--foabsechse);
+    border-width: 1em;
+    border-radius: 4em;
+    border-style: ridge;
+    cursor:grab;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    opacity: 60%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.Spiel1:hover, .Spiel2:hover, .Spiel3:hover, .Spiel4:hover {
+    letter-spacing: 1em;
+    opacity: 85%;
+    transition: 500ms;
+
+}
+
+/* .Spiel1 {
+    text-decoration: none;
+} */
