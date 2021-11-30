@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handy Disko</title>
+    <link rel="stylesheet" href="css/style1.css" />
+</head>
+
+<body>
+    <div>
+        <h1>Handy Disko</h1>
+        <h2>Versuche mit dem Handy die außerirdische Lebensform zu elimnieren.</h2>
+        <div>
+            <input type="number" id="tries" name="counterInput" />
+            <span>Anzahl der Versuche</span>
+            <!-- <input type="number" id="counterInput" name="counterInput" />
+    <button onclick="readCounter ()">Planet</button> -->
+            <fieldset class="planets">
+                <input type="radio" id="pl1" name="Planet" value="9.81">
+                <label for="mc"> Erde</label>
+                <input type="radio" id="pl2" name="Planet" value="1.62">
+                <label for="vi"> Mond</label>
+                <input type="radio" id="pl3" name="Planet" value="3.69">
+                <label for="ae"> Mars</label>
+                <input type="radio" id="pl4" name="Planet" value="24.79">
+                <label for="ae"> Jupiter</label>
+            </fieldset>
+            <div class="insert">
+                <input type="number" id="speed" name="counterInput" />
+                <span>Geschwindigkeit</span>
+            </div>
+            <div class="insert">
+                <input type="number" id="angle" name="counterInput" />
+                <span>Winkelkalibrierung</span>
+            </div>
+            
+        </div>
+        <button class="Alarm" onclick="alarmPressed()">Alarm</button>
+    </div>
+
+    <!-- <script type="text/javascript" src="js/lib.js"></script>
+    <script type="text/javascript" src="js/script.js"></script> -->
+    <script type="text/javascript" src="js/handy.js"></script>
+</body>
+
+</html>

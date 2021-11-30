@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fli, Fla, Flu</title>
+    <link rel="stylesheet" href="css/style2.css" />
+</head>
+
+<body>
+    <h1>Fli, Fla, Flu</h1>
+    <h2>Gewinne die Überzahl deiner angegebenen Versuche gegen 
+        den Computer zu gewinnen.
+    </h2>
+
+
+        <div class="playfield">
+            <div class="player">
+                <img class="normal" src="img/playerN.jpg" alt="player normal">
+                <img class="playerWins" src="img/playerW.png" alt="player gewinnt">
+                <img class="computerWins" src="img/playerL.png" alt="player verliert">
+            </div>
+            <div class="enemy">
+                <img class="normal" src="img/compN.jpg" alt="comp normal">
+                <img class="playerWins" src="img/compL.jpg" alt="comp verliert">
+                <img class="computerWins" src="img/compW.jpg" alt="comp gewinnt">
+            </div>
+        </div>
+
+        <div class="scorebox">
+            <p id="friendpoints">NAN</p>
+            <p>:</p>
+            <p id="foepoints">NAN</p>
+        </div>
+
+        <div class="messagebox">
+            <p id="message"></p>
+        </div>
+
+        <button id="re"onclick="newGame()" type="button">
+            New Game
+        </button>
+
+        <div class="craft">
+            <button class="cr"onclick="play(0)" type="button">
+                Schere
+            </button>
+            <button class="cr"onclick="play(1)" type="button">
+                Stein
+            </button>
+            <button class="cr"onclick="play(2)" type="button">
+                Papier
+            </button>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/fli.js"></script>
+
+</body>
+
+</html>
